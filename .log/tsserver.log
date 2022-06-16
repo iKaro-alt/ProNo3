@@ -1,0 +1,77 @@
+Info 0    [19:06:19.309] Starting TS Server
+Info 1    [19:06:19.309] Version: 4.7.3
+Info 2    [19:06:19.309] Arguments: /nix/store/s3c6813krvcxzd3fz1grlnjmgb5098vd-nodejs-14.19.1/bin/node /home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/fforelle/dev/ProNo3/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/ade7e60f82e5bab22ec0a6bdd13734aa/tscancellation*
+Info 3    [19:06:19.309] Platform: linux NodeVersion: 14 CaseSensitive: true
+Info 4    [19:06:19.309] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [19:06:19.318] Format host information updated
+Info 6    [19:06:19.324] Search path: /home/fforelle/dev/ProNo3/studio-de-idiomas/src
+Info 7    [19:06:19.325] For info: /home/fforelle/dev/ProNo3/studio-de-idiomas/src/App.js :: No config files found.
+Info 8    [19:06:19.329] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [19:06:21.037] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1707.9172710003331ms
+Info 10   [19:06:21.037] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [19:06:21.037] 	Files (161)
+
+Info 12   [19:06:21.038] -----------------------------------------------
+Info 13   [19:06:21.057] AutoImportProviderProject: found 5 root files in 5 dependencies in 17.71453799959272 ms
+Info 14   [19:06:21.058] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [19:06:21.140] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 81.09750500041991ms
+Info 16   [19:06:21.140] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [19:06:21.140] 	Files (127)
+
+Info 18   [19:06:21.140] -----------------------------------------------
+Info 19   [19:06:26.757] DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/.#App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 20   [19:06:26.758] Elapsed:: 0.6136400001123548ms DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/.#App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 21   [19:06:26.961] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 22   [19:06:26.999] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 37.71830099914223ms
+Info 23   [19:06:26.999] Different program with same set of files
+Info 24   [19:06:27.149] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 25   [19:06:27.155] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 5.527514000423253ms
+Info 26   [19:06:27.155] Different program with same set of files
+Info 27   [19:06:27.532] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 28   [19:06:27.558] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 26.17403000034392ms
+Info 29   [19:06:27.559] Different program with same set of files
+Info 30   [19:06:27.564] getCompletionData: Get current token: 0.07385799940675497
+Info 31   [19:06:27.564] getCompletionData: Is inside comment: 0.11908800061792135
+Info 32   [19:06:27.565] getCompletionData: Get previous token: 0.12155199982225895
+Info 33   [19:06:27.566] getCompletionsAtPosition: isCompletionListBlocker: 0.8377609997987747
+Info 34   [19:06:27.576] getExportInfoMap: cache miss or empty; calculating new results
+Info 35   [19:06:27.669] forEachExternalModuleToImportFrom autoImportProvider: 25.36504099983722
+Info 36   [19:06:27.669] getExportInfoMap: done in 94.10882600024343 ms
+Info 37   [19:06:27.686] collectAutoImports: resolved 3 module specifiers, plus 0 ambient and 2 from cache
+Info 38   [19:06:27.686] collectAutoImports: response is complete
+Info 39   [19:06:27.686] collectAutoImports: 16.39930999930948
+Info 40   [19:06:27.686] getCompletionData: Semantic work: 119.76267100032419
+Info 41   [19:06:27.720] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 33.224294000305235
+Info 42   [19:06:29.051] getCompletionData: Get current token: 0.04728800058364868
+Info 43   [19:06:29.051] getCompletionData: Is inside comment: 0.022134000435471535
+Info 44   [19:06:29.051] getCompletionData: Get previous token: 0.18512500077486038
+Info 45   [19:06:29.052] getCompletionsAtPosition: isCompletionListBlocker: 0.04194900020956993
+Info 46   [19:06:29.060] getExportInfoMap: cache hit
+Info 47   [19:06:29.072] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 5 from cache
+Info 48   [19:06:29.072] collectAutoImports: response is complete
+Info 49   [19:06:29.072] collectAutoImports: 12.285106000490487
+Info 50   [19:06:29.072] getCompletionData: Semantic work: 20.48223099950701
+Info 51   [19:06:29.096] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 23.66982400044799
+Info 52   [19:06:29.696] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 53   [19:06:29.725] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 29.365978999994695ms
+Info 54   [19:06:29.725] Different program with same set of files
+Info 55   [19:06:29.984] DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 56   [19:06:29.985] Elapsed:: 0.24769300036132336ms DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 57   [19:06:29.985] DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/App.js~ :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 58   [19:06:29.985] Elapsed:: 0.16257300041615963ms DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/App.js~ :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 59   [19:06:29.985] DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 60   [19:06:29.985] Elapsed:: 0.06317200046032667ms DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 61   [19:06:29.995] DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/.#App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 62   [19:06:29.995] Elapsed:: 0.06284699961543083ms DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/.#App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 63   [19:06:34.201] DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/.#App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 64   [19:06:34.201] Elapsed:: 0.044146000407636166ms DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/.#App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 65   [19:06:34.405] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 66   [19:06:34.440] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 34.695590999908745ms
+Info 67   [19:06:34.440] Different program with same set of files
+Info 68   [19:06:35.176] DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/.#App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 69   [19:06:35.176] Elapsed:: 0.056570000015199184ms DirectoryWatcher:: Triggered with /home/fforelle/dev/ProNo3/studio-de-idiomas/src/.#App.js :: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 70   [19:06:35.378] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 71   [19:06:35.403] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 24.390409999527037ms
+Info 72   [19:06:35.403] Different program with same set of files
+Info 73   [19:07:47.533] FileWatcher:: Triggered with /home/fforelle/dev/ProNo3/package.json 2:: WatchInfo: /home/fforelle/dev/ProNo3/package.json 250 undefined WatchType: package.json file
+Info 74   [19:07:47.535] Elapsed:: 1.4025320000946522ms FileWatcher:: Triggered with /home/fforelle/dev/ProNo3/package.json 2:: WatchInfo: /home/fforelle/dev/ProNo3/package.json 250 undefined WatchType: package.json file

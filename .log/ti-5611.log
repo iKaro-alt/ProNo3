@@ -1,0 +1,34 @@
+[19:06:19.460] Global cache location '/home/fforelle/.cache/typescript/4.7', safe file path '/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[19:06:19.461] Processing cache location '/home/fforelle/.cache/typescript/4.7'
+[19:06:19.461] Trying to find '/home/fforelle/.cache/typescript/4.7/package.json'...
+[19:06:19.461] Finished processing cache location '/home/fforelle/.cache/typescript/4.7'
+[19:06:19.461] Process id: 5618
+[19:06:19.461] NPM location: /nix/store/s3c6813krvcxzd3fz1grlnjmgb5098vd-nodejs-14.19.1/bin/npm (explicit '--npmLocation' not  provided)
+[19:06:19.461] validateDefaultNpmLocation: false
+[19:06:19.461] Npm config file: /home/fforelle/.cache/typescript/4.7/package.json
+[19:06:19.461] Npm config file: '/home/fforelle/.cache/typescript/4.7/package.json' is missing, creating new one...
+[19:06:19.462] Updating types-registry npm package...
+[19:06:19.462] Exec: /nix/store/s3c6813krvcxzd3fz1grlnjmgb5098vd-nodejs-14.19.1/bin/npm install --ignore-scripts types-registry@latest
+[19:06:20.245]     Succeeded. stdout:
+    + types-registry@0.1.595
+    added 1 package from 1 contributor and audited 1 package in 0.478s
+found 0 vulnerabilities
+
+
+[19:06:20.245] Updated types-registry npm package
+[19:06:21.142] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/fforelle/dev/ProNo3/studio-de-idiomas/src/App.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fforelle/dev/ProNo3/studio-de-idiomas/src","kind":"discover"}
+[19:06:21.163] Loaded safelist from types map file '/home/fforelle/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[19:06:21.163] Explicitly included types: []
+[19:06:21.164] Inferred typings from unresolved imports: []
+[19:06:21.164] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fforelle/dev/ProNo3/studio-de-idiomas/src/bower_components","/home/fforelle/dev/ProNo3/studio-de-idiomas/src/node_modules"]}
+[19:06:21.164] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fforelle/dev/ProNo3/studio-de-idiomas/src/bower_components","/home/fforelle/dev/ProNo3/studio-de-idiomas/src/node_modules"]}
+[19:06:21.164] DirectoryWatcher:: Added:: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src/bower_components
+[19:06:21.164] DirectoryWatcher:: Added:: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:06:21.166] Elapsed:: 1.0207559997215867ms DirectoryWatcher:: Added:: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:06:21.166] DirectoryWatcher:: Added:: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src/node_modules
+[19:06:21.166] DirectoryWatcher:: Added:: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:06:21.166] Elapsed:: 0.06984200049191713ms DirectoryWatcher:: Added:: WatchInfo: /home/fforelle/dev/ProNo3/studio-de-idiomas/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:06:21.166] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[19:06:21.166] Response has been sent.
+[19:06:21.166] No new typings were requested as a result of typings discovery
